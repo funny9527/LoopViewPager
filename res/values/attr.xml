@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScrollPanel">
+        <!-- A spacing override for the icons within a page -->
+        <attr name="loop" format="boolean" />
+        <attr name="smooth" format="boolean" />
+    </declare-styleable>
+</resources>
