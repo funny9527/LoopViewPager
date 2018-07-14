@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:scrollpanel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.loop.pager.ui.ScrollPanel
+        android:id="@+id/panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="0dip"
+            android:paddingBottom="0dip"
+            scrollpanel:loop="true"
+            scrollpanel:smooth="true"
+            >
+            <com.loop.pager.ui.Pager
+                android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff0000"
+                ></com.loop.pager.ui.Pager>
+            <com.loop.pager.ui.Pager
+                android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0000ff"
+                ></com.loop.pager.ui.Pager>
+            <com.loop.pager.ui.Pager
+                android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00ff00"
+                ></com.loop.pager.ui.Pager>
+            <com.loop.pager.ui.Pager
+                android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff000000"
+                >
+                <Button 
+                    android:id="@+id/test"
+                    android:layout_width="100dip"
+            android:layout_height="50dip"
+                    />
+            </com.loop.pager.ui.Pager>
+        </com.loop.pager.ui.ScrollPanel>
+
+</RelativeLayout>
